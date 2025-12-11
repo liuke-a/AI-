@@ -35,7 +35,7 @@
 - 运算逻辑：卷积核在输入矩阵上**滑动覆盖**，逐位置做“元素相乘求和+偏置”；
   - 示例：PDF 11页图像矩阵$\begin{bmatrix}105&102\\103&99\end{bmatrix}$与卷积核$\begin{bmatrix}0&0\\0&0\end{bmatrix}$运算，输出320。
 
-$\begin{bmatrix}0&0\\0&0\end{bmatrix}$
+$\begin{bmatrix}0&0\\0&0\end{bmatrix}$   
 ![2x2零矩阵](https://latex.codecogs.com/svg.image?\begin{bmatrix}0&0\\0&0\end{bmatrix})
 
 
