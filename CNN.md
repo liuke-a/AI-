@@ -39,6 +39,12 @@ $\begin{bmatrix}0&0\\0&0\end{bmatrix}$
 ![2x2零矩阵](https://latex.codecogs.com/svg.image?\begin{bmatrix}0&0\\0&0\end{bmatrix})
 
 
+# 放大+增加列间距（更清晰）
+![2x2零矩阵](https://latex.codecogs.com/svg.image?\dpi{150}\begin{bmatrix}0&0%5C%5C0&0\end{bmatrix})
+
+# 用 \cr 替代 \\ （另一种换行写法，无需URL编码）
+![2x2零矩阵](https://latex.codecogs.com/svg.image?\begin{bmatrix}0&0\cr0&0\end{bmatrix})
+
 #### （3）激活层
 - 功能：注入非线性，解决线性模型无法拟合复杂特征的问题；
 - 常用激活函数：ReLU（`f(x)=max(0,x)`。
