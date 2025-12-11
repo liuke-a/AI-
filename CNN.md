@@ -36,6 +36,9 @@
   - 示例：PDF 11页图像矩阵$\begin{bmatrix}105&102\\103&99\end{bmatrix}$与卷积核$\begin{bmatrix}0&0\\0&0\end{bmatrix}$运算，输出320。
 
 $\begin{bmatrix}0&0\\0&0\end{bmatrix}$
+![2x2零矩阵](https://latex.codecogs.com/svg.image?\begin{bmatrix}0&0\\0&0\end{bmatrix})
+
+
 #### （3）激活层
 - 功能：注入非线性，解决线性模型无法拟合复杂特征的问题；
 - 常用激活函数：ReLU（`f(x)=max(0,x)`。
